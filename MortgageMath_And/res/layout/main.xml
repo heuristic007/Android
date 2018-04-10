@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- main.xml -->
+<!-- Mortgage Math's XML Layout -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollViewMain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    tools:context=".MortgageMath" >
+        
+    <LinearLayout
+        android:id="@+id/LinearLayoutMain"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFF"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+            android:id="@+id/LinearLayoutTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textColor="#000" >
+            </TextView>
+            
+             <Button
+                android:id="@+id/btn_lang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language" /> 
+                
+        </LinearLayout>
+             
+        <!-- LinearLayout0 -->
+
+        <LinearLayout
+            android:id="@+id/LinearLayout0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/mortgageTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:text="@string/mortgage"
+                android:textColor="#000" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/mortgageEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="7"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/mortgageUnitTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:text="@string/mortgageUnit"
+                android:textColor="#000" >
+            </TextView>
+        </LinearLayout>
+
+        <!-- LinearLayout1 -->
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/loantermTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:text="@string/loanterm"
+                android:textColor="#000" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/loantermEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="7"
+                android:inputType="number" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/loantermUnitTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:text="@string/loantermUnit"
+                android:textColor="#000" >
+            </TextView>
+        </LinearLayout>
+
+        <!-- LinearLayout2 -->
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/graceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:text="@string/grace"
+                android:textColor="#000" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/graceEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="7"
+                android:inputType="number" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/graceUnitTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:text="@string/graceUnit"
+                android:textColor="#000" >
+            </TextView>
+        </LinearLayout>
+
+        <!-- LinearLayout3 -->
+
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/rateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:text="@string/rate"
+                android:textColor="#000" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/rateEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="7"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/rateUnitTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:text="@string/rateUnit"
+                android:textColor="#000" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:text="@string/equaltotal" />
+
+            <Button
+                android:id="@+id/btn_ep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:text="@string/equalprincipal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

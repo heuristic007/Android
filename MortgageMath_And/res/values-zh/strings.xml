@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">房貸數學</string>
+	<string name="title">房貸數學 Java 1.1</string>
+	<string name="language">英文</string>
+    <string name="mortgage">房貸</string>
+    <string name="loanterm">貸款期</string>
+    <string name="grace">寬限期</string>
+	<string name="rate">利率</string>
+	<string name="equaltotal">本息定額攤還法</string>
+	<string name="equalprincipal">本金定額攤還法</string>
+	<string name="zero">0.00</string>
+	<string name="enter_mortgage">輸入貸款</string>
+    <string name="mortgageUnit"> 元</string>
+    <string name="loantermUnit"> 年</string>
+    <string name="graceUnit"> 年</string>
+    <string name="rateUnit"> %</string>  
+    
+    <string name="CalcEqTotal"> 計算本息定額攤還: </string>
+    <string name="PayPerMonth"> 每月應付款: </string>
+    <string name="PayInGrace"> 寬限期內月付款 : </string>
+    <string name="PayAfterGrace"> 寬限期後月付款: </string>
+    <string name="TotalPayment"> 應付寬總額: </string>
+ 
+    <string name="CalcPrTotal"> 計算本金定額攤還: </string>
+    <string name="FixedPrPay"> 每月固定應付本金: </string>
+    <string name="Month"> 月份  </string>
+        
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Mortgage Math</string>
+	<string name="title">Mortgage Math Java 1.1</string>
+	<string name="language">Chinese</string>
+    <string name="mortgage">Mortgage</string>
+    <string name="loanterm">Loan Term</string>
+    <string name="grace">Grace Period</string>
+	<string name="rate">Interest Rate</string>
+	<string name="equaltotal">Equal Total Payment</string>
+	<string name="equalprincipal">Equal principal payment</string>
+	<string name="zero">0.00</string>
+	<string name="enter_mortgage">Enter mortgage</string>
+    <string name="mortgageUnit"> Dollars</string>
+    <string name="loantermUnit"> Year(s)</string>
+    <string name="graceUnit"> Year(s)</string>
+    <string name="rateUnit"> %</string>  
+    
+    <string name="CalcEqTotal"> Calculate Equal Total: </string>
+    <string name="PayPerMonth"> Payment every month: </string>
+    <string name="PayInGrace"> Payment in grace period : </string>
+    <string name="PayAfterGrace"> Monthly payment after grace: </string>
+    <string name="TotalPayment"> Total Payment: </string>
+    
+    <string name="CalcPrTotal"> Calculate Principal Total: </string>
+    <string name="FixedPrPay"> Fixed Principal Monthly Payment: </string>
+    <string name="Month"> Month </string>
+       
+</resources>
